@@ -1,0 +1,81 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+.banner{
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-image{
+    width: 100%;
+}
+
+.banner .banner-content h1{
+    font-size: 45px; 
+    padding-bottom: 24px;
+    padding-right: 230px;
+    padding-top: 216px;
+    padding-right: 230px;
+    font-weight: 700;
+    
+    
+}
+
+.banner .banner-content p {
+    /* font-size: 16px; */
+    line-height: 26px;
+    color: #444343;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+.banner-content button {
+    padding: 21px 26px;
+    font-size: 20px;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    max-width: 160;
+}
+
+.failures-section {
+    display: flex;
+    align-items: center;
+    padding: 0 206px;
+    align-items: center;
+
+}
+.failures-image img  {
+    max-width: 451px;
+    gap: 87px;
+}
+
+.failures-content{
+    padding-left: 87px;
+    gap:87px;
+    max-width: 416px;
+}
+.failures-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    alignment-baseline: left top;
+}
+.failures-content p{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: #444343;
+}
+.failures-content ul {
+    color: #444343;
+    list-style: none;
+}
+.failures-content ul li::before{
+    content: "✓";
+    color: #16D887;
+    margin-right: 10px;
+}
