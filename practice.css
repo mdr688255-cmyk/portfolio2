@@ -5,30 +5,32 @@ body {
     width: 71%;
     max-width: 1140px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+
 }
 .banner-image{
     width: 100%;
+    
 }
 
+.banner-content{
+    align-self: auto;
+
+}
 .banner .banner-content h1{
-    font-size: 45px; 
-    padding-bottom: 24px;
-    padding-right: 230px;
-    padding-top: 216px;
-    padding-right: 230px;
-    font-weight: 700;
+ text-align: left;
+
     
     
 }
 
 .banner .banner-content p {
-    /* font-size: 16px; */
+    font-size: 16px;
     line-height: 26px;
     color: #444343;
     padding-top: 24px;
     padding-bottom: 32px;
+    
 }
 
 .banner-content button {
@@ -78,4 +80,10 @@ body {
     content: "✓";
     color: #16D887;
     margin-right: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
